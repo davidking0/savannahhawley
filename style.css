@@ -1,6 +1,15 @@
+@font-face {
+    font-family:"Kollektif";
+    src:url('fonts/kollektif/Kollektif.ttf');
+}
+@font-face {
+    font-family:"Gidole";
+    src:url('fonts/gidole/Gidole-Regular.otf');
+}
+
+
 /*-----------------------------------------------------------------------------------
 	    savannahhawley
-        Built with Blocs
 -----------------------------------------------------------------------------------*/
 
 body{
@@ -378,7 +387,7 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+    font-family:"Kollektif";
 }
 .container{
 	max-width:1170px;
@@ -396,11 +405,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:0px 0px 0px 0px;
 	text-align:center;
 	margin:0px 0px 0px 0px;
+    font-family:"Gidole"!important;
 }
 .preview-text{
 	padding:0px 50px 0px 0px;
 	font-size:18px;
 	line-height:160%;
+    font-family:"Gidole"!important;
+
 }
 .title{
 	color:#A4C1D3!important;
@@ -411,6 +423,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	letter-spacing:2px;
 	font-size:24px;
 	text-transform:uppercase;
+    font-family:"Gidole"!important;
+
 }
 .home-image{
 	padding-right:30px;
@@ -422,6 +436,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-text{
 	font-size:24px;
+    font-family:"Gidole"!important;
 }
 
 /* = Colour
