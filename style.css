@@ -117,7 +117,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-1 p{
 	font-size: 18px;
 }
-#bloc-1 h5{
+#bloc-1 h5, #bloc-1-1 h5{
 	font-size: 18.000000953674316px;
 }
 #bloc-1 h4{
